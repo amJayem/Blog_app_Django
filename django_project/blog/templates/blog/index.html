@@ -10,7 +10,7 @@
                     <a class="mr-2" href="#">{{ p.author }} </a>
                     <small class="text-muted" > {{ p.date_posted|date:"F d, Y" }} </small>
                 </div>
-                <h2><a class="article-title" href="#">{{ p.title }} </a></h2>
+                <h2><a class="article-title" href="{% url 'post_detail' p.id %} ">{{ p.title }} </a></h2>
                 <p class="article-content" >{{ p.content }} </p>
             </div>
         </article>
