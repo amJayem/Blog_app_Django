@@ -40,6 +40,14 @@ class PostUpdateView(UserPassesTestMixin,UpdateView):
             return True
         return False
 
+class PostDeleteView(DeleteView):
+    model = Post
+    success_url='/'
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
 
 def about(request):
     return render(request,'blog/about.html')
