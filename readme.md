@@ -11,6 +11,6 @@ This app contains following features:
 ## Link
 
 <!-- Blockquote -->
->This django blog app hosted on heroku server. [Click here to visit] (https://my-awsome-django-blog.herokuapp.com/)
+>This django blog app hosted on heroku server. [Click here to visit](https://my-awsome-django-blog.herokuapp.com/)
 
 I followed a [tutorial](https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p), that helps me to build this Django applicaiotn. Anyone interested can learn Django from [here](https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p).
