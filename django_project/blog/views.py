@@ -5,11 +5,11 @@ from django.views.generic import ListView,DetailView,DeleteView,CreateView,Updat
 from django.contrib.auth.mixins import LoginRequiredMixin,UserPassesTestMixin
 from django.core.paginator import Paginator
 
-def home(request):
-    context = {
-        'posts': Post.objects.all(),
-    }
-    return render(request,'blog/index.html',context)
+# def home(request):
+#     context = {
+#         'posts': Post.objects.all(),
+#     }
+#     return render(request,'blog/index.html',context)
 
 class PostListView(ListView):
     model = Post
